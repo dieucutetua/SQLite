@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="#A2E47E"
+    >
+
+    <TextView
+        android:id="@+id/tvTen"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="Tên máy"
+        android:textSize="20dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+  />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_edit_24"
+        android:id="@+id/btnSua"
+
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/ic_baseline_restore_from_trash_24"
+        android:id="@+id/btnXoa"
+     />
+
+</LinearLayout>
